@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		843B86BD1E821CCD00919F2B /* GSTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843B86BC1E821CCD00919F2B /* GSTextView.swift */; };
+		843B86BF1E821F6B00919F2B /* GSTextIsNumberValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843B86BE1E821F6B00919F2B /* GSTextIsNumberValidator.swift */; };
+		844C868B1E82271B002FE473 /* GSTextIsEmailValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844C868A1E82271B002FE473 /* GSTextIsEmailValidator.swift */; };
+		84CD02EB1E7FCCC100DFC4EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CD02EA1E7FCCC100DFC4EE /* AppDelegate.swift */; };
+		84CD02ED1E7FCCC100DFC4EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CD02EC1E7FCCC100DFC4EE /* ViewController.swift */; };
+		84CD02F01E7FCCC200DFC4EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84CD02EE1E7FCCC200DFC4EE /* Main.storyboard */; };
+		84CD02F21E7FCCC200DFC4EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84CD02F11E7FCCC200DFC4EE /* Assets.xcassets */; };
+		84CD02F51E7FCCC200DFC4EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84CD02F31E7FCCC200DFC4EE /* LaunchScreen.storyboard */; };
+		84CD02FE1E7FD0BA00DFC4EE /* GSTextBaseValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CD02FD1E7FD0BA00DFC4EE /* GSTextBaseValidator.swift */; };
+		84CD03021E7FD43C00DFC4EE /* GSTextIsEmptyValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CD03011E7FD43C00DFC4EE /* GSTextIsEmptyValidator.swift */; };
+		84CD03041E7FD56700DFC4EE /* GSTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CD03031E7FD56700DFC4EE /* GSTextField.swift */; };
+		84CD03071E80D23D00DFC4EE /* GSTextValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CD03061E80D23D00DFC4EE /* GSTextValidator.swift */; };
+		84CD03091E80D83800DFC4EE /* GSTextLessThanValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CD03081E80D83800DFC4EE /* GSTextLessThanValidator.swift */; };
+		84CD030B1E812A7F00DFC4EE /* GSTextMoreThanValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CD030A1E812A7F00DFC4EE /* GSTextMoreThanValidator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		843B86BC1E821CCD00919F2B /* GSTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GSTextView.swift; sourceTree = "<group>"; };
+		843B86BE1E821F6B00919F2B /* GSTextIsNumberValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GSTextIsNumberValidator.swift; sourceTree = "<group>"; };
+		844C868A1E82271B002FE473 /* GSTextIsEmailValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GSTextIsEmailValidator.swift; sourceTree = "<group>"; };
+		84CD02E71E7FCCC100DFC4EE /* GSTextValidatorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GSTextValidatorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84CD02EA1E7FCCC100DFC4EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84CD02EC1E7FCCC100DFC4EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84CD02EF1E7FCCC200DFC4EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84CD02F11E7FCCC200DFC4EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84CD02F41E7FCCC200DFC4EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84CD02F61E7FCCC200DFC4EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84CD02FD1E7FD0BA00DFC4EE /* GSTextBaseValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GSTextBaseValidator.swift; sourceTree = "<group>"; };
+		84CD03011E7FD43C00DFC4EE /* GSTextIsEmptyValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GSTextIsEmptyValidator.swift; sourceTree = "<group>"; };
+		84CD03031E7FD56700DFC4EE /* GSTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GSTextField.swift; sourceTree = "<group>"; };
+		84CD03061E80D23D00DFC4EE /* GSTextValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GSTextValidator.swift; sourceTree = "<group>"; };
+		84CD03081E80D83800DFC4EE /* GSTextLessThanValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GSTextLessThanValidator.swift; sourceTree = "<group>"; };
+		84CD030A1E812A7F00DFC4EE /* GSTextMoreThanValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GSTextMoreThanValidator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84CD02E41E7FCCC100DFC4EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84CD02DE1E7FCCC100DFC4EE = {
+			isa = PBXGroup;
+			children = (
+				84CD02FC1E7FCCF100DFC4EE /* GSTextValidator */,
+				84CD02E91E7FCCC100DFC4EE /* GSTextValidatorDemo */,
+				84CD02E81E7FCCC100DFC4EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84CD02E81E7FCCC100DFC4EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84CD02E71E7FCCC100DFC4EE /* GSTextValidatorDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84CD02E91E7FCCC100DFC4EE /* GSTextValidatorDemo */ = {
+			isa = PBXGroup;
+			children = (
+				84CD02EA1E7FCCC100DFC4EE /* AppDelegate.swift */,
+				84CD02EC1E7FCCC100DFC4EE /* ViewController.swift */,
+				84CD02EE1E7FCCC200DFC4EE /* Main.storyboard */,
+				84CD02F11E7FCCC200DFC4EE /* Assets.xcassets */,
+				84CD02F31E7FCCC200DFC4EE /* LaunchScreen.storyboard */,
+				84CD02F61E7FCCC200DFC4EE /* Info.plist */,
+			);
+			path = GSTextValidatorDemo;
+			sourceTree = "<group>";
+		};
+		84CD02FC1E7FCCF100DFC4EE /* GSTextValidator */ = {
+			isa = PBXGroup;
+			children = (
+				84CD03061E80D23D00DFC4EE /* GSTextValidator.swift */,
+				84CD03031E7FD56700DFC4EE /* GSTextField.swift */,
+				843B86BC1E821CCD00919F2B /* GSTextView.swift */,
+				84CD02FD1E7FD0BA00DFC4EE /* GSTextBaseValidator.swift */,
+				84CD03011E7FD43C00DFC4EE /* GSTextIsEmptyValidator.swift */,
+				84CD03081E80D83800DFC4EE /* GSTextLessThanValidator.swift */,
+				84CD030A1E812A7F00DFC4EE /* GSTextMoreThanValidator.swift */,
+				843B86BE1E821F6B00919F2B /* GSTextIsNumberValidator.swift */,
+				844C868A1E82271B002FE473 /* GSTextIsEmailValidator.swift */,
+			);
+			name = GSTextValidator;
+			path = ../GSTextValidator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84CD02E61E7FCCC100DFC4EE /* GSTextValidatorDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84CD02F91E7FCCC200DFC4EE /* Build configuration list for PBXNativeTarget "GSTextValidatorDemo" */;
+			buildPhases = (
+				84CD02E31E7FCCC100DFC4EE /* Sources */,
+				84CD02E41E7FCCC100DFC4EE /* Frameworks */,
+				84CD02E51E7FCCC100DFC4EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GSTextValidatorDemo;
+			productName = GSTextValidatorDemo;
+			productReference = 84CD02E71E7FCCC100DFC4EE /* GSTextValidatorDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84CD02DF1E7FCCC100DFC4EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = GaoXinYuan;
+				TargetAttributes = {
+					84CD02E61E7FCCC100DFC4EE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ML78DUX4A6;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 84CD02E21E7FCCC100DFC4EE /* Build configuration list for PBXProject "GSTextValidatorDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84CD02DE1E7FCCC100DFC4EE;
+			productRefGroup = 84CD02E81E7FCCC100DFC4EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84CD02E61E7FCCC100DFC4EE /* GSTextValidatorDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84CD02E51E7FCCC100DFC4EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84CD02F51E7FCCC200DFC4EE /* LaunchScreen.storyboard in Resources */,
+				84CD02F21E7FCCC200DFC4EE /* Assets.xcassets in Resources */,
+				84CD02F01E7FCCC200DFC4EE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84CD02E31E7FCCC100DFC4EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84CD03041E7FD56700DFC4EE /* GSTextField.swift in Sources */,
+				84CD02FE1E7FD0BA00DFC4EE /* GSTextBaseValidator.swift in Sources */,
+				84CD02ED1E7FCCC100DFC4EE /* ViewController.swift in Sources */,
+				843B86BD1E821CCD00919F2B /* GSTextView.swift in Sources */,
+				84CD030B1E812A7F00DFC4EE /* GSTextMoreThanValidator.swift in Sources */,
+				844C868B1E82271B002FE473 /* GSTextIsEmailValidator.swift in Sources */,
+				84CD03071E80D23D00DFC4EE /* GSTextValidator.swift in Sources */,
+				843B86BF1E821F6B00919F2B /* GSTextIsNumberValidator.swift in Sources */,
+				84CD03091E80D83800DFC4EE /* GSTextLessThanValidator.swift in Sources */,
+				84CD02EB1E7FCCC100DFC4EE /* AppDelegate.swift in Sources */,
+				84CD03021E7FD43C00DFC4EE /* GSTextIsEmptyValidator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84CD02EE1E7FCCC200DFC4EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84CD02EF1E7FCCC200DFC4EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84CD02F31E7FCCC200DFC4EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84CD02F41E7FCCC200DFC4EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84CD02F71E7FCCC200DFC4EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84CD02F81E7FCCC200DFC4EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84CD02FA1E7FCCC200DFC4EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ML78DUX4A6;
+				INFOPLIST_FILE = GSTextValidatorDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GaoXinYuan.GSTextValidatorDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		84CD02FB1E7FCCC200DFC4EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ML78DUX4A6;
+				INFOPLIST_FILE = GSTextValidatorDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GaoXinYuan.GSTextValidatorDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84CD02E21E7FCCC100DFC4EE /* Build configuration list for PBXProject "GSTextValidatorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84CD02F71E7FCCC200DFC4EE /* Debug */,
+				84CD02F81E7FCCC200DFC4EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84CD02F91E7FCCC200DFC4EE /* Build configuration list for PBXNativeTarget "GSTextValidatorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84CD02FA1E7FCCC200DFC4EE /* Debug */,
+				84CD02FB1E7FCCC200DFC4EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84CD02DF1E7FCCC100DFC4EE /* Project object */;
+}
