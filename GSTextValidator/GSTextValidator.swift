@@ -21,9 +21,18 @@ class GSTextValidator {
         return validator
     }
     
+    class func isNumber() -> GSTextIsNumberValidator {
+        let validator = GSTextIsNumberValidator()
+        return validator
+    }
+    
+    class func isEmail(length:Int) -> GSTextIsEmailValidator {
+        let validator = GSTextIsEmailValidator()
+        return validator
+    }
+    
     class func moreThan(length:Int) -> GSTextMoreThanValidator {
         let validator = GSTextMoreThanValidator()
-        validator.length = length
         return validator
     }
 }
