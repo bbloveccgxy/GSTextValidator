@@ -12,7 +12,6 @@ This validator should be used with GGTextField or GGTextView.
 ### Example code
 ```swift
     let textfield : GSTextField = GSTextField(frame: CGRect(x: 10, y: 10, width: 100, height: 40))
-    textfield.backgroundColor = UIColor.lightGray
     textfield.gsDelegate = self
     textfield.validateDescription = "username"
     self.view.addSubview(textfield)   
